@@ -6,7 +6,7 @@ from uploads.core import views
 
 urlpatterns = [
     url('^$', views.home, name='home'),
-    url('data_analysis/', views.data_analysis, name='data_analysis'),
-    url('about/', views.about, name='about'),
-    url('contact/', views.contact, name='contact'),
+    url('slowka/', views.slowka, name='slowka'),
+    url('my/', views.my, name='my'),
+    url('kontakt/', views.kontakt, name='kontakt'),
 ]
