@@ -7,22 +7,22 @@ import pandas as pd
 
 
 def home(request):
-    print('Home')
+    print('Strona główna')
     return render(request, 'home.html')
 
 
-def about(request):
-    print('About')
-    return render(request, 'about.html')
+def my(request):
+    print('O nas')
+    return render(request, 'my.html')
 
 
-def contact(request):
-    print('Contact')
-    return render(request, 'contact.html')
+def kontakt(request):
+    print('Kontakt')
+    return render(request, 'kontakt.html')
 
 
-def data_analysis(request):
-    print('Data analysis')
+def slowka(request):
+    print('Nauka słówek')
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
 
@@ -50,19 +50,19 @@ def data_analysis(request):
             for row in readCSV:
                 print(row)
 
-        print('Data analysis')
+        print('Nauka słówek')
         r_table = df.apply(lambda x: df.apply(lambda y: r_xor_p(x, y,
                                                                 r_xor_p='r')))
         p_table = df.apply(lambda x: df.apply(lambda y: r_xor_p(x, y,
                                                                 r_xor_p='p')))
 
-        return render(request, 'data_analysis.html',
+        return render(request, 'slowka.html',
                       {'result_present': True,
                        'results': {'r_table': r_table.to_html(),
                                    'p_table': p_table.to_html()},
                        'df': df.to_html()})
 
-    return render(request, 'data_analysis.html')
+    return render(request, 'slowka.html')
 
 
 def r_xor_p(x, y, r_xor_p='r'):
