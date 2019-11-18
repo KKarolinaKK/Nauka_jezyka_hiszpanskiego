@@ -3,6 +3,22 @@
 {% load static %}
 
 {% block content %}
+<h1>Zapraszamy do nauki słówek!</h1>
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="{% url 'slowka' %}">Rodzina</a></li>
+              <li><a href="{% url 'slowka' %}">Kolory</a></li>
+              <li><a href="{% url 'slowka' %}">Liczby</a></li>
+          </ul>
+      </nav>
+    </header>
+
+<!--
   <p>
     <form method="post" enctype="multipart/form-data">
       {% csrf_token %}
@@ -10,7 +26,7 @@
       <input type="submit" value="Upload and analyze">
     </form>
   </p>
-
+-->
   {% if result_present %}
     <p><strong>Result:</strong>
       <ul>
