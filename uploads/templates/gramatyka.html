@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<h1>Zapraszamy do nauki słówek!</h1>
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="{% url 'czasy' %}">Czasy</a></li>
+              <li><a href="{% url 'interpunkcja' %}">Interpunkcja</a></li>
+          </ul>
+      </nav>
+    </header>
+</html>
+
+
+
+{% endblock %}
