@@ -9,4 +9,7 @@ urlpatterns = [
     url('slowka/', views.slowka, name='slowka'),
     url('my/', views.my, name='my'),
     url('kontakt/', views.kontakt, name='kontakt'),
+    url('rodzina/', views.rodzina, name='rodzina'),
+    url('kolory/', views.kolory, name='kolory'),
+    url('liczby/', views.liczby, name='liczby'),
 ]
