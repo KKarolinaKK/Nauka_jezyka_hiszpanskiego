@@ -1,23 +1,27 @@
 h1 {
   color: #8B0000;
+  font-family: Courier;
   text-align: center;
   font-size: 500%;
 }
 
 h2 {
   color: #8B0000;
+  font-family: Courier;
   text-align: center;
   font-size: 300%
 }
 
 
 p {color: #8B0000;
+  font-family:Arial;
   text-align: center;
   font-size: 200%;
  }
 
 p1 {color: #8B0000;
    text-align: center;
+   font-family:Arial;
    font-size: 150%;
    margin: 0;
    padding: 20;
@@ -33,6 +37,7 @@ body{
 /* Menu */
 nav ul {
   list-style-type: none;
+  font-family:Arial;
   margin: 0;
   padding: 0;
   overflow: hidden;
