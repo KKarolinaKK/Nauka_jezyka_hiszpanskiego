@@ -15,6 +15,17 @@ def my(request):
     print('O nas')
     return render(request, 'my.html')
 
+def gramatyka(request):
+    print('Gramatyka')
+    return render(request, 'gramatyka.html')
+
+def interpunkcja(request):
+    print('Interpunckja')
+    return render(request, 'interpunkcja.html')
+
+def czasy(request):
+    print('Czasy')
+    return render(request, 'czasy.html')
 
 def kontakt(request):
     print('Kontakt')
