@@ -12,4 +12,7 @@ urlpatterns = [
     url('rodzina/', views.rodzina, name='rodzina'),
     url('kolory/', views.kolory, name='kolory'),
     url('liczby/', views.liczby, name='liczby'),
+    url('gramatyka/', views.gramatyka, name='gramatyka'),
+    url('czasy/', views.czasy, name='czasy'),
+    url('interpunkcja/', views.interpunkcja, name='interpunkcja')
 ]
