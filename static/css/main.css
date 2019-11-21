@@ -4,17 +4,29 @@ h1 {
   font-size: 500%;
 }
 
+h2 {
+  color: #8B0000;
+  text-align: center;
+  font-size: 300%
+}
+
+
 p {color: #8B0000;
   text-align: center;
   font-size: 200%;
-  width: 500px;
-  height: 30px;
-  padding: 500px;
-  background-color: #FFFAF0;
+ }
+
+p1 {color: #8B0000;
+   text-align: center;
+   font-size: 150%;
+   margin: 0;
+   padding: 20;
+   overflow: hidden;
+   background-color:	#FFF5EE;
  }
 
 body{
-  background-image: url("/static/img/hp.jpg");
+  background-color:	#FFFACD;
 }
 
 
