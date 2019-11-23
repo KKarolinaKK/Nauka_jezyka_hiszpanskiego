@@ -1,1 +1,1 @@
-Aplikacja do nauki języka hiszpańskiego.
+Propozycja dla osób chcących nauczyć się podstaw języka hiszpańskiego. 
