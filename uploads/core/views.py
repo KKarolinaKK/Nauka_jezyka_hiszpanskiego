@@ -10,6 +10,9 @@ def home(request):
     print('Strona główna')
     return render(request, 'home.html')
 
+def notatka(request):
+    print('Twoje notatki')
+    return render(request, 'notatka.html')
 
 def my(request):
     print('O nas')
