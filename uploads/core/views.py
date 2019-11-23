@@ -19,9 +19,9 @@ def gramatyka(request):
     print('Gramatyka')
     return render(request, 'gramatyka.html')
 
-def interpunkcja(request):
-    print('Interpunckja')
-    return render(request, 'interpunkcja.html')
+def odmiana(request):
+    print('Odmiana czasowników przez osoby')
+    return render(request, 'odmiana.html')
 
 def czasy(request):
     print('Czasy')
