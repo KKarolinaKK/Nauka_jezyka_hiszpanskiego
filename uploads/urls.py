@@ -14,5 +14,5 @@ urlpatterns = [
     url('liczby/', views.liczby, name='liczby'),
     url('gramatyka/', views.gramatyka, name='gramatyka'),
     url('czasy/', views.czasy, name='czasy'),
-    url('odmiana/', views.interpunkcja, name='interpunkcja')
+    url('odmiana/', views.odmiana, name='odmiana')
 ]
