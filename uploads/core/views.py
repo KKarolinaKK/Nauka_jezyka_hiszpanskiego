@@ -39,6 +39,10 @@ def kolory(request):
     print('Kolory')
     return render(request, 'kolory.html')
 
+def notatka(request):
+    print('Twoje notatki')
+    return render(request, 'notatka.html')
+
 def liczby(request):
     print('Liczby')
     return render(request, 'liczby.html')
