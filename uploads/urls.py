@@ -16,4 +16,7 @@ urlpatterns = [
     url('czasy/', views.czasy, name='czasy'),
     url('odmiana/', views.odmiana, name='odmiana'),
     url('notatka/', views.notatka, name='notatka')
+    url('gustar/', views.gustar, name='gustar')
+    url('hobby/', views.hobby, name='hobby')
+    url('hola/', views.hola, name='hola')
 ]
