@@ -63,9 +63,13 @@ def liczby(request):
     print('Liczby')
     return render(request, 'liczby.html')
 
+def hobby(request):
+    print('Co lubisz robić?')
+    return render(request, 'hobby.html')
 
 def slowka(request):
     print('Nauka słówek')
     return render(request, 'slowka.html')
+
 
 
