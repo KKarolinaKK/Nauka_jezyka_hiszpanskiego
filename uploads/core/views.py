@@ -57,12 +57,14 @@ def kolory(request):
 def notatka(request):
     print('Twoje notatki')
     return render(request, 'notatka.html')
-    
 
 def liczby(request):
     print('Liczby')
     return render(request, 'liczby.html')
 
+def gustar(request):
+    print('Co lubię?')
+    return render(request, 'gustar.html')
 
 def slowka(request):
     print('Nauka słówek')
