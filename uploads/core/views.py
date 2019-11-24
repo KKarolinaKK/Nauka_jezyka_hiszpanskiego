@@ -5,7 +5,7 @@ from django.shortcuts import redirect
 import csv
 import pandas as pd
 
-def post_new(request):
+def nowa_notatka(request):
     if request.method == "POST":
         form = PostForm(request.POST)
         if form.is_valid():
