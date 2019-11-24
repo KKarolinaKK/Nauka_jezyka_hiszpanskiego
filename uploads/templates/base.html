@@ -15,7 +15,9 @@
               <li><a href="{% url 'my' %}">O nas</a></li>
               <li><a href="{% url 'kontakt' %}">O Hiszpanii</a></li>
               <li><a href="{% url 'gramatyka' %}">Gramatyka</a></li>
-              <li><a href="{% url 'notatka' %}">Twoje notatki</a></li>
+              <div class="page-header">
+                <li><a href="{% url 'notatka' %}" class="top-menu"><span class="glyphicon glyphicon-plus">Twoje notatki</span></a></li>
+              </div>
           </ul>
       </nav>
     </header>
