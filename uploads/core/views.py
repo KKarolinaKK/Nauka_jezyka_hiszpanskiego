@@ -21,7 +21,15 @@ def post_new(request):
 def home(request):
     print('Strona główna')
     return render(request, 'home.html')
+  
+def hobby(request):
+    print('Co lubisz robić?')
+    return render(request, 'hobby.html')
 
+def gustar(request):
+    print('Co lubię?')
+    return render(request, 'gustar.html')
+  
 def notatka(request):
     print('Twoje notatki')
     return render(request, 'notatka.html')
@@ -62,10 +70,6 @@ def liczby(request):
     print('Liczby')
     return render(request, 'liczby.html')
 
-def gustar(request):
-    print('Co lubię?')
-    return render(request, 'gustar.html')
-
 def slowka(request):
     print('Nauka słówek')
     return render(request, 'slowka.html')
@@ -73,4 +77,5 @@ def slowka(request):
 def hola(request):
     print('Przywitaj sie i powiedz coś o sobie')
     return render(request, 'hola.html')
+
 
