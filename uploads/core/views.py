@@ -68,4 +68,7 @@ def slowka(request):
     print('Nauka słówek')
     return render(request, 'slowka.html')
 
+def hola(request):
+    print('Przywitaj sie i powiedz coś o sobie')
+    return render(request, 'hola.html')
 
